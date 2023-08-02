@@ -1,0 +1,42 @@
+input{
+    font-size: 18px;
+    font-weight: 200;
+  }
+  label{
+    font-size: 18px;
+    font-weight: 200;
+  }
+  .btn2{
+    background-color: #0071c2;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+  }
+  .btn2:hover{
+    background-color: green;
+  }
+  .forms{
+    font-style: normal;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px solid black;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    z-index: 2;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+  @media screen and (max-width:1000px){
+    .forms{
+      display: block;
+    }
+  } 

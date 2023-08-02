@@ -1,0 +1,49 @@
+.footer{
+  width: 100%;
+  font-size: 12px;
+  background-image: linear-gradient(rgb(11, 35, 59), rgb(18, 76, 134), rgb(8, 62, 116));
+  padding: 15px;
+}
+
+.fLists{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.fList{
+  list-style: none;
+  padding: 5px;
+}
+
+.fListItem{
+  margin-bottom: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.fText{
+  text-align: center;
+  color: #fff;
+}
+/* .flists{
+  position: relative;
+  text-align: center;
+  justify-content: center;
+} */
+
+@media screen and (max-width:900px){
+  .footer{
+    display: block;
+  }
+}
+
+.flist{
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.flist:hover{
+  color: orangered;
+}

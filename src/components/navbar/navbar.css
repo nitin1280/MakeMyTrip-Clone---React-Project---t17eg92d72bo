@@ -1,0 +1,49 @@
+.navbar{
+    height: 50px;
+    background-color: rgb(11, 35, 59);
+    /* background-image: linear-gradient(); */
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    overflow: hidden;
+  }
+  
+  .navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo{
+    position: relative;
+    right: 30%;
+    font-size: 23px;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+  }
+
+  .my{
+    background-color: red;
+    font-style: italic;
+    font-weight: 700;
+  }
+  .navButton{
+    position: relative;
+    left: 100%;
+    font-size: 16px;
+    border-radius: 12px;
+    color: black;
+  }
+  
+ 

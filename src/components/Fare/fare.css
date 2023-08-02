@@ -1,0 +1,31 @@
+/* CSS for BookingFareSummary component */
+.fare-summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow */
+  }
+  
+  .fare-summary h2 {
+    margin-bottom: 10px;
+  }
+  
+  .fare-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  /* Media Query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .fare-summary {
+      /* Adjust the styles for smaller screens here */
+      padding: 10px;
+    }
+  
+    .fare-item {
+      /* Adjust the styles for smaller screens here */
+      font-size: 14px;
+    }
+  }
+  
